@@ -31,4 +31,4 @@ SAMN06286055	Salmonella enterica	99.81	28901	Proteobacteria	Gammaproteobacteria	
 SAMN06286056	Salmonella enterica	98.502	28901	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
 SAMN06286057	Salmonella enterica	99.822	28901	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
 SAMN06286058	Salmonella enterica	99.656	28901	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
-Salmonella enterica	99.888	28901	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
+SAMN06286059	Salmonella enterica	99.888	28901	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
