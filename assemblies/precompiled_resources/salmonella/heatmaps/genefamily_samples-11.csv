@@ -1,0 +1,48 @@
+gene_family,gene,SAMN06286053,SAMN06286049,SAMN06286050,SAMN06286054,SAMN06286058,SAMN06286059,SAMN06286051,SAMN06286055,SAMN06286057,SAMN06286056,SAMN06286052
+AAC(6'),AAC(6')-Iy,1,1,1,1,1,1,1,1,1,1,1
+ATP-binding cassette (ABC) antibiotic efflux pump,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+ATP-binding cassette (ABC) antibiotic efflux pump,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+ATP-binding cassette (ABC) antibiotic efflux pump,msbA,1,1,1,1,1,1,1,1,1,1,1
+General Bacterial Porin with reduced permeability to beta-lactams,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+General Bacterial Porin with reduced permeability to beta-lactams,marA*,1,1,1,1,1,1,1,1,1,1,1
+Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,1,1,1,1,1,1,1,1,1,1,1
+ampC-type beta-lactamase,Escherichia coli ampC1 beta-lactamase,1,1,1,1,1,1,1,1,1,1,1
+ampC-type beta-lactamase,Escherichia coli ampH,1,1,1,1,1,1,1,1,1,1,1
+antibiotic-resistant GlpT,Escherichia coli GlpT with mutation conferring resistance to fosfomycin,1,1,1,1,1,1,1,1,1,1,1
+antibiotic-resistant UhpT,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,1,1,1,1,1,1,1,1,1,1,1
+elfamycin resistant EF-Tu,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone resistant gyrA,Salmonella enterica gyrA conferring resistance to fluoroquinolones,1,1,0,0,0,0,0,0,0,0,0
+kdpDE,kdpE,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,Escherichia coli mdfA,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,Klebsiella pneumoniae KpnE,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,Klebsiella pneumoniae KpnF,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,emrA,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,emrB,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,emrR,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,mdtM,1,1,1,1,1,1,1,1,1,1,1
+multidrug and toxic compound extrusion (MATE) transporter,mdtK,1,1,1,1,1,1,1,1,1,1,1
+pmr phosphoethanolamine transferase,pmrF,1,1,1,1,1,1,1,1,1,1,1
+pmr phosphoethanolamine transferase,ugd,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,CRP,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli acrA,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli marR mutant conferring antibiotic resistance,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,acrB,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,acrD,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,baeR,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,cpxA,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,golS,2,2,2,2,2,2,2,2,2,2,2
+resistance-nodulation-cell division (RND) antibiotic efflux pump,marA*,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdsA,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdsB,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdsC,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdtB,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdtC,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,rsmA,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,sdiA,1,1,1,1,1,1,1,1,1,1,1
+trimethoprim resistant dihydrofolate reductase dfr,Trimethoprim-resistant dihydrofolate reductase DfrA42,1,1,1,1,1,1,1,1,1,1,1
+undecaprenyl pyrophosphate related proteins,bacA,1,1,1,1,1,1,1,1,1,1,1

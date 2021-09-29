@@ -1,0 +1,157 @@
+drug_class,gene,SAMN06286053,SAMN06286049,SAMN06286050,SAMN06286054,SAMN06286058,SAMN06286059,SAMN06286051,SAMN06286055,SAMN06286057,SAMN06286056,SAMN06286052
+acridine dye,mdtM*,1,1,1,1,1,1,1,1,1,1,1
+aminocoumarin antibiotic,baeR*,1,1,1,1,1,1,1,1,1,1,1
+aminocoumarin antibiotic,cpxA*,1,1,1,1,1,1,1,1,1,1,1
+aminocoumarin antibiotic,mdtB,1,1,1,1,1,1,1,1,1,1,1
+aminocoumarin antibiotic,mdtC,1,1,1,1,1,1,1,1,1,1,1
+aminoglycoside antibiotic,AAC(6')-Iy,1,1,1,1,1,1,1,1,1,1,1
+aminoglycoside antibiotic,Klebsiella pneumoniae KpnE*,1,1,1,1,1,1,1,1,1,1,1
+aminoglycoside antibiotic,Klebsiella pneumoniae KpnF*,1,1,1,1,1,1,1,1,1,1,1
+aminoglycoside antibiotic,acrD,1,1,1,1,1,1,1,1,1,1,1
+aminoglycoside antibiotic,baeR*,1,1,1,1,1,1,1,1,1,1,1
+aminoglycoside antibiotic,cpxA*,1,1,1,1,1,1,1,1,1,1,1
+aminoglycoside antibiotic,kdpE,1,1,1,1,1,1,1,1,1,1,1
+benzalkonium chloride,Escherichia coli mdfA*,1,1,1,1,1,1,1,1,1,1,1
+carbapenem,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+carbapenem,golS*,2,2,2,2,2,2,2,2,2,2,2
+carbapenem,marA*,1,1,1,1,1,1,1,1,1,1,1
+carbapenem,mdsA*,1,1,1,1,1,1,1,1,1,1,1
+carbapenem,mdsB*,1,1,1,1,1,1,1,1,1,1,1
+carbapenem,mdsC*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Escherichia coli ampC1 beta-lactamase*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Escherichia coli ampH*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Klebsiella pneumoniae KpnE*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Klebsiella pneumoniae KpnF*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,acrB*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,golS*,2,2,2,2,2,2,2,2,2,2,2
+cephalosporin,marA*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,mdsA*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,mdsB*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,mdsC*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,sdiA*,1,1,1,1,1,1,1,1,1,1,1
+cephamycin,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+cephamycin,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics*,1,1,1,1,1,1,1,1,1,1,1
+cephamycin,golS*,2,2,2,2,2,2,2,2,2,2,2
+cephamycin,marA*,1,1,1,1,1,1,1,1,1,1,1
+cephamycin,mdsA*,1,1,1,1,1,1,1,1,1,1,1
+cephamycin,mdsB*,1,1,1,1,1,1,1,1,1,1,1
+cephamycin,mdsC*,1,1,1,1,1,1,1,1,1,1,1
+diaminopyrimidine antibiotic,Trimethoprim-resistant dihydrofolate reductase DfrA42,1,1,1,1,1,1,1,1,1,1,1
+diaminopyrimidine antibiotic,rsmA*,1,1,1,1,1,1,1,1,1,1,1
+disinfecting agents and intercalating dyes,mdtM*,1,1,1,1,1,1,1,1,1,1,1
+elfamycin antibiotic,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,CRP*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,Salmonella enterica gyrA conferring resistance to fluoroquinolones,1,1,0,0,0,0,0,0,0,0,0
+fluoroquinolone antibiotic,acrB*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,emrA,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,emrB,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,emrR,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,marA*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,mdtK,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,mdtM*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,rsmA*,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,sdiA*,1,1,1,1,1,1,1,1,1,1,1
+fosfomycin,Escherichia coli GlpT with mutation conferring resistance to fosfomycin,1,1,1,1,1,1,1,1,1,1,1
+fosfomycin,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,acrB*,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,marA*,1,1,1,1,1,1,1,1,1,1,1
+glycylcycline,sdiA*,1,1,1,1,1,1,1,1,1,1,1
+lincosamide antibiotic,mdtM*,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,CRP*,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,Klebsiella pneumoniae KpnE*,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,Klebsiella pneumoniae KpnF*,1,1,1,1,1,1,1,1,1,1,1
+monobactam,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+monobactam,golS*,2,2,2,2,2,2,2,2,2,2,2
+monobactam,marA*,1,1,1,1,1,1,1,1,1,1,1
+monobactam,mdsA*,1,1,1,1,1,1,1,1,1,1,1
+monobactam,mdsB*,1,1,1,1,1,1,1,1,1,1,1
+monobactam,mdsC*,1,1,1,1,1,1,1,1,1,1,1
+nitroimidazole antibiotic,msbA,1,1,1,1,1,1,1,1,1,1,1
+nucleoside antibiotic,mdtM*,1,1,1,1,1,1,1,1,1,1,1
+penam,CRP*,1,1,1,1,1,1,1,1,1,1,1
+penam,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+penam,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+penam,Escherichia coli ampC1 beta-lactamase*,1,1,1,1,1,1,1,1,1,1,1
+penam,Escherichia coli ampH*,1,1,1,1,1,1,1,1,1,1,1
+penam,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+penam,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+penam,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+penam,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics*,1,1,1,1,1,1,1,1,1,1,1
+penam,acrB*,1,1,1,1,1,1,1,1,1,1,1
+penam,golS*,2,2,2,2,2,2,2,2,2,2,2
+penam,marA*,1,1,1,1,1,1,1,1,1,1,1
+penam,mdsA*,1,1,1,1,1,1,1,1,1,1,1
+penam,mdsB*,1,1,1,1,1,1,1,1,1,1,1
+penam,mdsC*,1,1,1,1,1,1,1,1,1,1,1
+penam,sdiA*,1,1,1,1,1,1,1,1,1,1,1
+penem,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+penem,golS*,2,2,2,2,2,2,2,2,2,2,2
+penem,marA*,1,1,1,1,1,1,1,1,1,1,1
+penem,mdsA*,1,1,1,1,1,1,1,1,1,1,1
+penem,mdsB*,1,1,1,1,1,1,1,1,1,1,1
+penem,mdsC*,1,1,1,1,1,1,1,1,1,1,1
+peptide antibiotic,Klebsiella pneumoniae KpnE*,1,1,1,1,1,1,1,1,1,1,1
+peptide antibiotic,Klebsiella pneumoniae KpnF*,1,1,1,1,1,1,1,1,1,1,1
+peptide antibiotic,bacA,1,1,1,1,1,1,1,1,1,1,1
+peptide antibiotic,pmrF,1,1,1,1,1,1,1,1,1,1,1
+peptide antibiotic,ugd,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,acrB*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,golS*,2,2,2,2,2,2,2,2,2,2,2
+phenicol antibiotic,marA*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,mdsA*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,mdsB*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,mdsC*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,mdtM*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,rsmA*,1,1,1,1,1,1,1,1,1,1,1
+phenicol antibiotic,sdiA*,1,1,1,1,1,1,1,1,1,1,1
+rhodamine,Escherichia coli mdfA*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,Klebsiella pneumoniae KpnE*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,Klebsiella pneumoniae KpnF*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,acrB*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,marA*,1,1,1,1,1,1,1,1,1,1,1
+rifamycin antibiotic,sdiA*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Escherichia coli mdfA*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Klebsiella pneumoniae KpnE*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,Klebsiella pneumoniae KpnF*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,acrB*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,marA*,1,1,1,1,1,1,1,1,1,1,1
+tetracycline antibiotic,sdiA*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,Escherichia coli acrA*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,Escherichia coli marR mutant conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,Escherichia coli soxR with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,Escherichia coli soxS with mutation conferring antibiotic resistance*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,acrB*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,marA*,1,1,1,1,1,1,1,1,1,1,1
+triclosan,sdiA*,1,1,1,1,1,1,1,1,1,1,1

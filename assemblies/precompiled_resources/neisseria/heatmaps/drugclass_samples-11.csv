@@ -1,0 +1,35 @@
+drug_class,gene,SAMD00099405,SAMD00099401,SAMD00099404,SAMD00099402,SAMD00099400,SAMD00099409,SAMD00099410,SAMD00099403,SAMD00099406,SAMD00099407,SAMD00099408
+antibacterial free fatty acids,farA,1,1,1,1,1,1,1,1,1,1,1
+antibacterial free fatty acids,farB,1,1,1,1,1,1,1,1,1,1,1
+carbapenem,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic*,1,1,1,1,1,1,1,1,1,0,0
+cephalosporin,Neisseria gonorrhoea PBP1 conferring resistance to beta-lactam*,1,1,1,1,1,1,1,1,1,0,1
+cephalosporin,Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics*,1,1,1,1,1,1,1,1,1,1,1
+cephalosporin,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic*,1,1,1,1,1,1,1,1,1,0,0
+cephalosporin,TEM-135*,2,0,0,0,0,0,0,0,0,0,0
+cephamycin,Neisseria gonorrhoea PBP1 conferring resistance to beta-lactam*,1,1,1,1,1,1,1,1,1,0,1
+cephamycin,Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics*,1,1,1,1,1,1,1,1,1,1,1
+cephamycin,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic*,1,1,1,1,1,1,1,1,1,0,0
+diaminopyrimidine antibiotic,Trimethoprim-resistant dihydrofolate reductase DfrA42,1,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone antibiotic,Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,1,1,1,1,1,1,1,1,1,0,1
+fluoroquinolone antibiotic,Neisseria gonorrhoeae parC conferring resistance to fluoroquinolone,1,1,1,1,1,1,1,1,1,0,1
+macrolide antibiotic,Neisseria gonorrhoea 23S rRNA with mutation conferring resistance to azithromycin,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,Neisseria gonorrhoea mtrR with mutation conferring resistance,0,0,0,0,0,1,1,1,1,1,0
+macrolide antibiotic,macA,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,macB,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,mtrC*,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,mtrD*,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,mtrE*,1,1,1,1,1,1,1,1,1,1,1
+macrolide antibiotic,rpld,0,0,0,0,0,0,0,0,0,1,0
+monobactam,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic*,1,1,1,1,1,1,1,1,1,0,0
+monobactam,TEM-135*,2,0,0,0,0,0,0,0,0,0,0
+penam,Neisseria gonorrhoea PBP1 conferring resistance to beta-lactam*,1,1,1,1,1,1,1,1,1,0,1
+penam,Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics*,1,1,1,1,1,1,1,1,1,1,1
+penam,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic*,1,1,1,1,1,1,1,1,1,0,0
+penam,TEM-135*,2,0,0,0,0,0,0,0,0,0,0
+penam,mtrC*,1,1,1,1,1,1,1,1,1,1,1
+penam,mtrD*,1,1,1,1,1,1,1,1,1,1,1
+penam,mtrE*,1,1,1,1,1,1,1,1,1,1,1
+penem,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic*,1,1,1,1,1,1,1,1,1,0,0
+penem,TEM-135*,2,0,0,0,0,0,0,0,0,0,0
+tetracycline antibiotic,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic*,1,1,1,1,1,1,1,1,1,0,0
+tetracycline antibiotic,rpsJ,1,1,1,1,1,1,1,1,1,0,0
