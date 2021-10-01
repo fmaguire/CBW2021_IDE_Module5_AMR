@@ -112,15 +112,16 @@ You shouldn't need to do this here but if you ever want to load a new database y
 
 So we've got our tool, we've got our reference database, now we just need input data! 
 
-We've pre-loaded your instance with data from 3 different bacterial species: _Neisseria gonorrhoeae_, _Pseudomonas aeruginosa_, and _Salmonella enterica_. *(add citation)*
+We've pre-loaded your instance with data from 3 different bacterial species: _Neisseria gonorrhoeae_, _Pseudomonas aeruginosa_, and _Salmonella enterica_. *(add citation)* alongside unknown plasmid sequences. 
 
 You can look at this data by typing:
 
 ```bash
-ls /home/ubuntu/CourseData/IDGE_data/module5
-ls /home/ubuntu/CourseData/IDGE_data/module5/neisseria
-ls /home/ubuntu/CourseData/IDGE_data/module5/pseudomonas
-ls /home/ubuntu/CourseData/IDGE_data/module5/salmonella
+ls /home/ubuntu/CourseData/IDGE_data/module5/reads
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/neisseria
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/pseudomonas
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/salmonella
 ```
 
 ### Using RGI-BWT
@@ -239,23 +240,23 @@ _WHY IS PSEUDOMONAS RESISTANT TO EVERYTHING_
 
 RGI has built-in tools to visualize the resistance genes found across many samples including phenotypic resistance profiles in the form of heatmaps.
 
-Earlier in this lab, we mentioned pre-loaded data from  3 different bacterial species: let's compare the resistance profile between each of them.
+Earlier in this lab, we mentioned pre-loaded data from 3 different bacterial species: let's compare the resistance profile between each of them.
 
 For review:
 
 ```bash
-ls /home/ubuntu/CourseData/IDGE_data/module5
-ls /home/ubuntu/CourseData/IDGE_data/module5/neisseria
-ls /home/ubuntu/CourseData/IDGE_data/module5/pseudomonas
-ls /home/ubuntu/CourseData/IDGE_data/module5/salmonella
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/neisseria
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/pseudomonas
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/salmonella
 ```
 
 From each of the species directories, you are free to select one sample of your choice for the following exercise, but for this demo, the samples we will use are the following:
 
 ```bash
-ls /home/ubuntu/CourseData/IDGE_data/module5/neisseria/SAMD00099400.contigs.fa.gz
-ls /home/ubuntu/CourseData/IDGE_data/module5/pseudomonas/SAMD00019033.contigs.fa.gz
-ls /home/ubuntu/CourseData/IDGE_data/module5/salmonella/SAMN06286049.contigs.fa.gz
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/neisseria/SAMD00099400.contigs.fa.gz
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/pseudomonas/SAMD00019033.contigs.fa.gz
+ls /home/ubuntu/CourseData/IDGE_data/module5/contigs/salmonella/SAMN06286049.contigs.fa.gz
 ```
 
 Start by creating another directory to store RGI results from contigs within your `module5` directory:
@@ -274,29 +275,66 @@ Then using the above path to selected samples, we can run `rgi main`:
 
 ```bash
 # From Neisseria directory:
-rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/neisseria/SAMD00099400.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file neisseria_rgi --clean
+rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/contigs/neisseria/SAMD00099400.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file neisseria_rgi --clean
 
 # From Pseudomonas directory
-rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/pseudomonas/SAMD00019033.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file pseudomonas_rgi --clean
+rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/contigs/pseudomonas/SAMD00019033.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file pseudomonas_rgi --clean
 
 # From Salmonella directory
-rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/salmonella/SAMN06286049.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file salmonella_rgi --clean
-
-# using contig
-rgi main –h
-rgi main -i /home/ubuntu/CourseData/IDGE_data/module4/ecoli/SAM*.fasta -o single_sample -t contig -a BLAST -n 4 --local --clean
-ls
-less single_sample.json
-less single_sample.txt
+rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/contigs/salmonella/SAMN06286049.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file salmonella_rgi --clean
 ```
 
-Using pre-compiled results for all 33 samples, so let’s try RGI’s beta heat map tool (pre-compiled images can be downloaded from the course GitHub repo):
+Note the output files for RGI (`neisseria_rgi.txt`, `pseudomonas_rgi.txt`, and `salmonella_rgi.txt`):
+* What AMR genes have been detected?
+
+Now let us compare the resistance profile of each species using `rgi heatmap`. 
+We can visually compare and contrast the resistance genes and phenotypic resistance between numerous RGI results. 
+
+First create another new directory within your `module5` directory to store the heatmap results.
 
 ```bash
-ls /home/ubuntu/CourseData/IDGE_data/module4/ecoli_json
+mkdir heatmaps
+cd heatmaps
+```
+
+Now we can refer to our `rgi_results` directory when running `rgi heatmap` which will pull all the `.json` files. 
+Each column within the heatmap will correspond to the name of the RGI `.json` file. 
+
+We will generate a few heatmaps across the 3 species categorizing AMR gene families and drug class resistance phenotype
+
+```bash
 rgi heatmap –h
-rgi heatmap -i precompiled_resources/ -cat gene_family -o genefamily_samples -clus samples
-rgi heatmap -i  precompiled_resources -cat drug_class -o drugclass_samples -clus samples
-rgi heatmap -i precompiled_resources  -o cluster_both -clus both
-rgi heatmap -i precompiled_resources  -o cluster_both_frequency -f -clus bothls
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/rgi_results -cat gene_family -o genefamily_samples -clus samples
+rgi heatmap -i  /home/ubuntu/CourseData/IDGE_data/module5/rgi_results -cat drug_class -o drugclass_samples -clus samples
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/rgi_results -o cluster_both -clus both
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/rgi_results -o cluster_both_frequency -f -clus bothls
+```
+
+Note for each heatmap, the following:
+* Yellow represents a perfect hit
+* Teal represents a strict hit
+* Purple represents no hit
+
+Download the `.png` files generated and refer to your answers to the previous set of questions:
+* At a glance, can you identify AMR genes that are found between the three species?
+
+Now of course, we only looked at a single sample from each species, so now we will analyse 
+Using pre-compiled RGI results, we can create heatmaps to analyse resistance within a single species using _Neisseria gonorrhoeae_ as an example:
+
+```bash
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/neisseria -cat gene_family -o genefamily_neisseria -clus samples
+rgi heatmap -i  /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/neisseria -cat drug_class -o drugclass_neisserias -clus samples
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/neisseria  -o cluster_both_neisseria -clus both
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/neisseria  -o cluster_both_frequency_neisseria -f -clus bothls
+```
+
+Feel free to re-run the above adjusting for _Pseudomonas aeruginosa_ and/or _Salmonella enterica_!
+
+Lastly, we can create a heatmap summarizing the resistance profiles for all 33 pre-compiled samples:
+
+```bash
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/all -cat gene_family -o genefamily_all_samples -clus samples
+rgi heatmap -i  /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/all -cat drug_class -o drugclass_all_samples -clus samples
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/all  -o cluster_both_all_samples -clus both
+rgi heatmap -i /home/ubuntu/CourseData/IDGE_data/module5/precompiled_rgi/all  -o cluster_both_frequency_all_samples -f -clus bothls
 ```
