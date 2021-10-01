@@ -136,23 +136,23 @@ cd rgi_bwt_results
 Then we can run rgi bwt using the `bowtie2` short read mapper
 
 ```bash
-rgi bwt --read_one ~/CourseData/IDE_data/module5/reads/unknown_plasmid/unknown_plasmid_1.fq.gz --read_two ~/CourseData/IDE_data/module5/reads/unknown_plasmid/unknown_plasmid_2.fq.gz --output_file unknown_plasmid_rgi_bwt --threads 2 --aligner bowtie2
+rgi bwt --read_one ~/CourseData/IDE_data/module5/reads/unknown_plasmid_1/unknown_plasmid_1_R1.fq.gz --read_two ~/CourseData/IDE_data/module5/reads/unknown_plasmid_1/unknown_plasmid_1_R2.fq.gz --output_file unknown_plasmid_1_read_rgi --threads 2 --aligner bowtie2 --clean
 ```
 RGI bwt is still in beta and produces a LOT of output files.
 
-However, the file we are most interested in for now is `unknown_plasmid_rgi_bwt.gene_mapping_data.txt`
+However, the file we are most interested in for now is `unknown_plasmid_1_read_rgi.gene_mapping_data.txt`
 
 If you open this file (either by downloading it and opening it in a spreadsheet program) you can see AMR genes that have been identified in these reads.
 
 * Which AMR genes were found?
+
+Now try and repeat this process using reads from `unknown_plasmid_2` (`~/CourseData/IDE_data/module5/reads/unknown_plasmid_2`)
 
 Read-based analyses has advantages and disadvantages: 
 * Higher sensitivity (we find as many AMR genes as possible) 
 * Lower specificity (we are more likely to make mistakes when identifying AMR genes)
 * Incomplete data (we are likely to find fragments of genes instead of whole genes, this can lead to confusion between similar genes)
 * No genomic context (we don't know where a gene we detect comes from in the genome, is it associated with a plasmid?)
-
-* Based on the results from this result which of these may be happening?
 
 
 <a name="rgi"></a>
@@ -165,22 +165,34 @@ For this we are going to use `shovill` as it is a convenient way to get quick an
 Again, this is a relatively quick process in the grand scheme for a real set of bacterial genomic reads (5-10 million short-reads typically) but ~10-15 minutes is a lot of time for a tutorial.
 Therefore, we are still going to use this small test set.
 
+Let's get back to our workfolder and create a result folder for this part of the exercise
+
 ```bash
-shovill --R1 ~/CourseData/IDE_data/module5/reads/unknown_plasmid/unknown_plasmid_1.fq.gz --R2 ~/CourseData/IDE_data/module5/reads/unknown_plasmid/unknown_plasmid_2.fq.gz --outdir unknown_plasmid --cpus 2
+cd ..
+mkdir rgi_assembly_results 
+cd rgi_assembly_results 
 ```
 
-This should result in an assembled contig file to be created in `unknown_plasmid/contig.fa`.
+Then we can run `shovill`:
+```bash
+shovill --R1 ~/CourseData/IDE_data/module5/reads/unknown_plasmid_1/unknown_plasmid_1_R1.fq.gz --R2 ~/CourseData/IDE_data/module5/reads/unknown_plasmid_1/unknown_plasmid_1_R2.fq.gz --outdir unknown_plasmid_1_assembly --cpus 2
+```
+
+This should result in an assembled contig file to be created in `unknown_plasmid_1_assembly/contig.fa`.
 
 RGI can then be run using these contigs as input.  This will involve RGI automatically detecting genes in the contigs (using `prodigal`) and comparing those genes against the CARD database using either BLAST or DIAMOND.
 We'll use DIAMOND here as it faster than BLAST (at the cost of a very slightly decreased accuracy).
 
 ```bash
-rgi main --input_sequence unknown_plasmid/contigs.fa --alignment_tool diamond --num_threads 2 --output_file unknown_plasmid_contig_rgi --clean
+rgi main --input_sequence unknown_plasmid_1_assembly/contigs.fa --alignment_tool diamond --num_threads 2 --output_file unknown_plasmid_1_contig_rgi --clean
 ```
 
-The output file we are interested in will be called `unknown_plasmid_contig_rgi.txt`
+The output file we are interested in will be called `unknown_plasmid_1_contig_rgi.txt`
 
+* What AMR genes have been detected?
+* How does this compare with the results from RGI-bwt?
 
+Repeat this process of assembling and running RGI on the contigs using reads from `unknown_plasmid_2` (`~/CourseData/IDE_data/module5/reads/unknown_plasmid_2`)
 
 _INSERT MATERIAL ABOUT RUNNING ON ANOTHER SET OF CONTIGS FOR REAL_
 
