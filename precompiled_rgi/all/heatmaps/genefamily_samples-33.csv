@@ -1,0 +1,135 @@
+gene_family,gene,pseudomonas_36,pseudomonas_33,pseudomonas_37,pseudomonas_34,pseudomonas_35,pseudomonas_38,pseudomonas_39,pseudomonas_40,pseudomonas_41,pseudomonas_42,pseudomonas_43,salmonella_53,salmonella_49,salmonella_50,salmonella_54,salmonella_58,salmonella_59,salmonella_51,salmonella_55,salmonella_57,salmonella_56,salmonella_52,neisseria_7,neisseria_5,neisseria_8,neisseria_2,neisseria_4,neisseria_1,neisseria_0,neisseria_3,neisseria_6,neisseria_9,neisseria_10
+23S rRNA with mutation conferring resistance to macrolide antibiotics,Neisseria gonorrhoea 23S rRNA with mutation conferring resistance to azithromycin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+50S rRNA with mutation conferring resistance to macrolide antibiotics,rpld,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+AAC(6'),AAC(6')-Ib8,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+AAC(6'),AAC(6')-Iy,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+APH(3'),APH(3')-IIb,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATP-binding cassette (ABC) antibiotic efflux pump,Escherichia coli soxR with mutation conferring antibiotic resistance*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+ATP-binding cassette (ABC) antibiotic efflux pump,Escherichia coli soxS with mutation conferring antibiotic resistance*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+ATP-binding cassette (ABC) antibiotic efflux pump,Pseudomonas aeruginosa soxR*,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ATP-binding cassette (ABC) antibiotic efflux pump,macA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+ATP-binding cassette (ABC) antibiotic efflux pump,macB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+ATP-binding cassette (ABC) antibiotic efflux pump,msbA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+General Bacterial Porin with reduced permeability to beta-lactams,Escherichia coli soxS with mutation conferring antibiotic resistance*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+General Bacterial Porin with reduced permeability to beta-lactams,Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1
+General Bacterial Porin with reduced permeability to beta-lactams,marA*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+IMP beta-lactamase,IMP-44,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+OXA beta-lactamase,OXA-488,0,0,0,0,0,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+OXA beta-lactamase,OXA-846,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Outer Membrane Porin (Opr),ParR*,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Outer Membrane Porin (Opr),ParS*,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PDC beta-lactamase,PDC-104,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PDC beta-lactamase,PDC-11,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics,Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics,Neisseria gonorrhoea PBP1 conferring resistance to beta-lactam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics,Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+TEM beta-lactamase,TEM-135,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+ampC-type beta-lactamase,Escherichia coli ampC1 beta-lactamase,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+ampC-type beta-lactamase,Escherichia coli ampH,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+antibiotic-resistant GlpT,Escherichia coli GlpT with mutation conferring resistance to fosfomycin,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+antibiotic-resistant UhpT,Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+chloramphenicol acetyltransferase (CAT),Pseudomonas aeruginosa catB7,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+elfamycin resistant EF-Tu,Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+fluoroquinolone resistant gyrA,Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+fluoroquinolone resistant gyrA,Pseudomonas aeruginosa gyrA conferring resistance to fluoroquinolones,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+fluoroquinolone resistant gyrA,Salmonella enterica gyrA conferring resistance to fluoroquinolones,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+fluoroquinolone resistant parC,Neisseria gonorrhoeae parC conferring resistance to fluoroquinolone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+fosfomycin thiol transferase,fosA,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+kdpDE,kdpE,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,Escherichia coli mdfA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,Escherichia coli soxR with mutation conferring antibiotic resistance*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,Escherichia coli soxS with mutation conferring antibiotic resistance*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,Klebsiella pneumoniae KpnE,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,Klebsiella pneumoniae KpnF,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,Pseudomonas aeruginosa soxR*,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,bcr-1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,emrA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,emrB,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,emrR,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,farA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,farB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+major facilitator superfamily (MFS) antibiotic efflux pump,mdtM,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+major facilitator superfamily (MFS) antibiotic efflux pump,qacEdelta1,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+multidrug and toxic compound extrusion (MATE) transporter,PmpM,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+multidrug and toxic compound extrusion (MATE) transporter,mdtK,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+pmr phosphoethanolamine transferase,arnA,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pmr phosphoethanolamine transferase,basR,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pmr phosphoethanolamine transferase,basS,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pmr phosphoethanolamine transferase,cprR,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pmr phosphoethanolamine transferase,cprS,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pmr phosphoethanolamine transferase,pmrF,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+pmr phosphoethanolamine transferase,ugd,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,ArmR,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,CRP,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli acrA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli acrR with mutation conferring multidrug antibiotic resistance,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli marR mutant conferring antibiotic resistance,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli soxR with mutation conferring antibiotic resistance*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Escherichia coli soxS with mutation conferring antibiotic resistance*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexA,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexB,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexC,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexD,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexE,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexF,1,1,1,1,1,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexS,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MexT,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MuxA,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MuxB,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,MuxC,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Neisseria gonorrhoea mtrR with mutation conferring resistance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,OpmB,1,1,1,1,1,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,OpmH,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,OprJ,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,OprM,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,OprN,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,ParR*,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,ParS*,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Pseudomonas aeruginosa CpxR,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Pseudomonas aeruginosa soxR*,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,TriA,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,TriB,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,TriC,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,Type B NfxB,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,YajC,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,acrB,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,acrD,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,baeR,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,cpxA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,golS,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,marA*,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdsA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdsB,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdsC,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdtB,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mdtC,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexG,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexH,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexI,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexJ,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexK,1,1,1,1,1,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexL,1,1,1,1,1,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexM,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexN,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexP,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexQ,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexR,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexV,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexW,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexY,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mexZ,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mtrC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mtrD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,mtrE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+resistance-nodulation-cell division (RND) antibiotic efflux pump,nalC,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,nalD,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,opmD,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,opmE,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,rsmA,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+resistance-nodulation-cell division (RND) antibiotic efflux pump,sdiA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+small multidrug resistance (SMR) antibiotic efflux pump,Pseudomonas aeruginosa emrE,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+sulfonamide resistant sul,sul1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tetracycline-resistant ribosomal protection protein,rpsJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1
+trimethoprim resistant dihydrofolate reductase dfr,Trimethoprim-resistant dihydrofolate reductase DfrA42,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+trimethoprim resistant dihydrofolate reductase dfr,Trimethoprim-resistant dihydrofolate reductase DfrA43,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+undecaprenyl pyrophosphate related proteins,bacA,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0

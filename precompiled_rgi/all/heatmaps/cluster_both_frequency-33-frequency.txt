@@ -1,0 +1,11 @@
+Frequency	Samples
+9	salmonella_56, salmonella_52, salmonella_57, salmonella_55, salmonella_51, salmonella_59, salmonella_58, salmonella_54, salmonella_50
+5	pseudomonas_34, pseudomonas_35, pseudomonas_37, pseudomonas_33, pseudomonas_36
+4	neisseria_9, neisseria_10, neisseria_6, neisseria_3
+4	pseudomonas_42, pseudomonas_43, pseudomonas_41, pseudomonas_40
+4	neisseria_1, neisseria_0, neisseria_4, neisseria_2
+2	pseudomonas_38, pseudomonas_39
+2	salmonella_53, salmonella_49
+1	neisseria_5
+1	neisseria_8
+1	neisseria_7

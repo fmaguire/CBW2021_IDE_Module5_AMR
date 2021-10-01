@@ -1,0 +1,125 @@
+gene,pseudomonas_34,pseudomonas_42,pseudomonas_38,salmonella_56,salmonella_53,neisseria_7,neisseria_5,neisseria_8,neisseria_9,neisseria_1
+rsmA,2,2,2,1,1,0,0,0,0,0
+mexG,2,2,2,0,0,0,0,0,0,0
+cprR,2,2,2,0,0,0,0,0,0,0
+YajC,2,2,2,0,0,0,0,0,0,0
+TriB,2,2,2,0,0,0,0,0,0,0
+Pseudomonas aeruginosa soxR,2,2,2,0,0,0,0,0,0,0
+Pseudomonas aeruginosa emrE,2,2,2,0,0,0,0,0,0,0
+Pseudomonas aeruginosa CpxR,2,2,2,0,0,0,0,0,0,0
+OprM,2,2,2,0,0,0,0,0,0,0
+OpmH,2,2,2,0,0,0,0,0,0,0
+MuxC,2,2,2,0,0,0,0,0,0,0
+MexA,2,2,2,0,0,0,0,0,0,0
+MuxB,2,2,2,0,0,0,0,0,0,0
+OXA-488,0,2,2,0,0,0,0,0,0,0
+mexL,1,2,2,0,0,0,0,0,0,0
+mexK,1,2,2,0,0,0,0,0,0,0
+MexF,1,2,2,0,0,0,0,0,0,0
+OpmB,1,2,2,0,0,0,0,0,0,0
+qacEdelta1,2,0,0,0,0,0,0,0,0,0
+PDC-11,2,0,0,0,0,0,0,0,0,0
+IMP-44,2,0,0,0,0,0,0,0,0,0
+OXA-846,2,0,0,0,0,0,0,0,0,0
+sul1,1,0,0,0,0,0,0,0,0,0
+mexM,1,0,0,0,0,0,0,0,0,0
+AAC(6')-Ib8,1,0,0,0,0,0,0,0,0,0
+Pseudomonas aeruginosa gyrA conferring resistance to fluoroquinolones,1,0,0,0,0,0,0,0,0,0
+ArmR,0,1,0,0,0,0,0,0,0,0
+PDC-104,0,1,1,0,0,0,0,0,0,0
+basR,0,1,1,0,0,0,0,0,0,0
+opmE,1,1,1,0,0,0,0,0,0,0
+opmD,1,1,1,0,0,0,0,0,0,0
+nalD,1,1,1,0,0,0,0,0,0,0
+nalC,1,1,1,0,0,0,0,0,0,0
+mexZ,1,1,1,0,0,0,0,0,0,0
+mexY,1,1,1,0,0,0,0,0,0,0
+mexW,1,1,1,0,0,0,0,0,0,0
+mexV,1,1,1,0,0,0,0,0,0,0
+mexR,1,1,1,0,0,0,0,0,0,0
+mexQ,1,1,1,0,0,0,0,0,0,0
+mexP,1,1,1,0,0,0,0,0,0,0
+mexN,1,1,1,0,0,0,0,0,0,0
+mexJ,1,1,1,0,0,0,0,0,0,0
+mexI,1,1,1,0,0,0,0,0,0,0
+cprS,1,1,1,0,0,0,0,0,0,0
+bcr-1,1,1,1,0,0,0,0,0,0,0
+basS,1,1,1,0,0,0,0,0,0,0
+arnA,1,1,1,0,0,0,0,0,0,0
+Type B NfxB,1,1,1,0,0,0,0,0,0,0
+Trimethoprim-resistant dihydrofolate reductase DfrA43,1,1,1,0,0,0,0,0,0,0
+TriC,1,1,1,0,0,0,0,0,0,0
+TriA,1,1,1,0,0,0,0,0,0,0
+Pseudomonas aeruginosa catB7,1,1,1,0,0,0,0,0,0,0
+PmpM,1,1,1,0,0,0,0,0,0,0
+ParS,1,1,1,0,0,0,0,0,0,0
+ParR,1,1,1,0,0,0,0,0,0,0
+OprN,1,1,1,0,0,0,0,0,0,0
+OprJ,1,1,1,0,0,0,0,0,0,0
+MexT,1,1,1,0,0,0,0,0,0,0
+MexS,1,1,1,0,0,0,0,0,0,0
+MexE,1,1,1,0,0,0,0,0,0,0
+MexD,1,1,1,0,0,0,0,0,0,0
+MexC,1,1,1,0,0,0,0,0,0,0
+APH(3')-IIb,1,1,1,0,0,0,0,0,0,0
+MexB,1,1,1,0,0,0,0,0,0,0
+mexH,2,1,1,0,0,0,0,0,0,0
+MuxA,2,1,1,0,0,0,0,0,0,0
+fosA,2,1,1,0,0,0,0,0,0,0
+Neisseria gonorrhoea mtrR with mutation conferring resistance,0,0,0,0,0,1,0,0,1,0
+rpld,0,0,0,0,0,1,0,0,0,0
+golS,0,0,0,2,2,0,0,0,0,0
+Salmonella enterica gyrA conferring resistance to fluoroquinolones,0,0,0,0,1,0,0,0,0,0
+ugd,0,0,0,1,1,0,0,0,0,0
+sdiA,0,0,0,1,1,0,0,0,0,0
+pmrF,0,0,0,1,1,0,0,0,0,0
+msbA,0,0,0,1,1,0,0,0,0,0
+mdtM,0,0,0,1,1,0,0,0,0,0
+mdtK,0,0,0,1,1,0,0,0,0,0
+mdtC,0,0,0,1,1,0,0,0,0,0
+mdtB,0,0,0,1,1,0,0,0,0,0
+mdsC,0,0,0,1,1,0,0,0,0,0
+mdsB,0,0,0,1,1,0,0,0,0,0
+mdsA,0,0,0,1,1,0,0,0,0,0
+marA,0,0,0,1,1,0,0,0,0,0
+kdpE,0,0,0,1,1,0,0,0,0,0
+emrR,0,0,0,1,1,0,0,0,0,0
+emrB,0,0,0,1,1,0,0,0,0,0
+emrA,0,0,0,1,1,0,0,0,0,0
+cpxA,0,0,0,1,1,0,0,0,0,0
+baeR,0,0,0,1,1,0,0,0,0,0
+bacA,0,0,0,1,1,0,0,0,0,0
+acrD,0,0,0,1,1,0,0,0,0,0
+acrB,0,0,0,1,1,0,0,0,0,0
+Klebsiella pneumoniae KpnF,0,0,0,1,1,0,0,0,0,0
+Klebsiella pneumoniae KpnE,0,0,0,1,1,0,0,0,0,0
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,0,0,0,1,1,0,0,0,0,0
+Escherichia coli soxS with mutation conferring antibiotic resistance,0,0,0,1,1,0,0,0,0,0
+Escherichia coli soxR with mutation conferring antibiotic resistance,0,0,0,1,1,0,0,0,0,0
+Escherichia coli mdfA,0,0,0,1,1,0,0,0,0,0
+Escherichia coli marR mutant conferring antibiotic resistance,0,0,0,1,1,0,0,0,0,0
+Escherichia coli ampH,0,0,0,1,1,0,0,0,0,0
+Escherichia coli ampC1 beta-lactamase,0,0,0,1,1,0,0,0,0,0
+Escherichia coli acrR with mutation conferring multidrug antibiotic resistance,0,0,0,1,1,0,0,0,0,0
+Escherichia coli acrA,0,0,0,1,1,0,0,0,0,0
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,0,0,0,1,1,0,0,0,0,0
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,0,0,0,1,1,0,0,0,0,0
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,0,0,0,1,1,0,0,0,0,0
+AAC(6')-Iy,0,0,0,1,1,0,0,0,0,0
+CRP,0,0,0,1,1,0,0,0,0,0
+TEM-135,0,0,0,0,0,0,2,0,0,0
+Trimethoprim-resistant dihydrofolate reductase DfrA42,0,0,0,1,1,1,1,1,1,1
+Neisseria gonorrhoeae mutant porin PIB (por) with reduced permeability to antibiotic,0,0,0,0,0,0,1,0,1,1
+rpsJ,0,0,0,0,0,0,1,0,1,1
+Neisseria gonorrhoeae parC conferring resistance to fluoroquinolone,0,0,0,0,0,0,1,1,1,1
+Neisseria gonorrhoea PBP1 conferring resistance to beta-lactam,0,0,0,0,0,0,1,1,1,1
+Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones,0,0,0,0,0,0,1,1,1,1
+mtrE,0,0,0,0,0,1,1,1,1,1
+mtrD,0,0,0,0,0,1,1,1,1,1
+mtrC,0,0,0,0,0,1,1,1,1,1
+macB,0,0,0,0,0,1,1,1,1,1
+macA,0,0,0,0,0,1,1,1,1,1
+farB,0,0,0,0,0,1,1,1,1,1
+farA,0,0,0,0,0,1,1,1,1,1
+Neisseria gonorrhoea 23S rRNA with mutation conferring resistance to azithromycin,0,0,0,0,0,1,1,1,1,1
+Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics,0,0,0,0,0,1,1,1,1,1

@@ -112,7 +112,7 @@ You shouldn't need to do this here but if you ever want to load a new database y
 
 So we've got our tool, we've got our reference database, now we just need input data! 
 
-We've pre-loaded your instance with data from 3 different bacterial species: _Neisseria gonorrhoeae_, _Pseudomonas aeruginosa_, and _Salmonella enterica_.
+We've pre-loaded your instance with data from 3 different bacterial species: _Neisseria gonorrhoeae_, _Pseudomonas aeruginosa_, and _Salmonella enterica_. *(add citation)*
 
 You can look at this data by typing:
 
@@ -133,7 +133,13 @@ mkdir rgi_bwt_results
 cd rgi_bwt_results
 ```
 
-Then we can run rgi bwt using the `bowtie2` short read mapper
+Take a look at some of the parameters needed to run `rgi bwt:
+
+```bash
+rgi bwt-h
+```
+
+Then we can run `rgi bwt` using the `bowtie2` short read mapper by providing the individual read files and output
 
 ```bash
 rgi bwt --read_one ~/CourseData/IDE_data/module5/reads/unknown_plasmid_1/unknown_plasmid_1_R1.fq.gz --read_two ~/CourseData/IDE_data/module5/reads/unknown_plasmid_1/unknown_plasmid_1_R2.fq.gz --output_file unknown_plasmid_1_read_rgi --threads 2 --aligner bowtie2 --clean
@@ -184,6 +190,7 @@ RGI can then be run using these contigs as input.  This will involve RGI automat
 We'll use DIAMOND here as it faster than BLAST (at the cost of a very slightly decreased accuracy).
 
 ```bash
+rgi main -h
 rgi main --input_sequence unknown_plasmid_1_assembly/contigs.fa --alignment_tool diamond --num_threads 2 --output_file unknown_plasmid_1_contig_rgi --clean
 ```
 
@@ -221,23 +228,59 @@ _INSERT MATERIAL ABOUT REPEATING THIS FOR A BUNCH OF THE CONTIG RESULTS_
 ## Predicting Resistance Phenotype
 
 
+```
 _INSERT MATERIAL ABOUT HEATMAPS_
 
 _LOOKING AT DRUG CLASS COMPARISON ESPECIALLY_
 
 _WHY IS PSEUDOMONAS RESISTANT TO EVERYTHING_
 
+```
 
+RGI has built-in tools to visualize the resistance genes found across many samples including phenotypic resistance profiles in the form of heatmaps.
 
+Earlier in this lab, we mentioned pre-loaded data from  3 different bacterial species: let's compare the resistance profile between each of them.
 
-
-We don’t have time to analyze all 33 samples, so let’s analyze 1 as an example:
-
-Pick one of the contigs. Or select one set of reads from either Neisseria, Pseudomonas, or Salmonella
+For review:
 
 ```bash
+ls /home/ubuntu/CourseData/IDGE_data/module5
+ls /home/ubuntu/CourseData/IDGE_data/module5/neisseria
+ls /home/ubuntu/CourseData/IDGE_data/module5/pseudomonas
+ls /home/ubuntu/CourseData/IDGE_data/module5/salmonella
+```
 
-# shovill --> if running from reads otherwise,
+From each of the species directories, you are free to select one sample of your choice for the following exercise, but for this demo, the samples we will use are the following:
+
+```bash
+ls /home/ubuntu/CourseData/IDGE_data/module5/neisseria/SAMD00099400.contigs.fa.gz
+ls /home/ubuntu/CourseData/IDGE_data/module5/pseudomonas/SAMD00019033.contigs.fa.gz
+ls /home/ubuntu/CourseData/IDGE_data/module5/salmonella/SAMN06286049.contigs.fa.gz
+```
+
+Start by creating another directory to store RGI results from contigs within your `module5` directory:
+```bash
+mkdir rgi_results
+cd rgi_results
+```
+
+Review the parameters needed to run `rgi main`:
+
+```bash
+rgi main -h
+```
+
+Then using the above path to selected samples, we can run `rgi main`:
+
+```bash
+# From Neisseria directory:
+rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/neisseria/SAMD00099400.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file neisseria_rgi --clean
+
+# From Pseudomonas directory
+rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/pseudomonas/SAMD00019033.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file pseudomonas_rgi --clean
+
+# From Salmonella directory
+rgi main --input_sequence /home/ubuntu/CourseData/IDGE_data/module5/salmonella/SAMN06286049.contigs.fa.gz --alignment_tool diamond --num_threads 2 --output_file salmonella_rgi --clean
 
 # using contig
 rgi main –h
