@@ -65,8 +65,26 @@ In this part of the tutorial, your instructor will walk you through the followin
 2. Examine the NDM-1 beta-lactamase protein, it’s mechanism of action, conferred antibiotic resistance, it’s prevalence, and it’s detection model. 
 3. Examine the AAC(6')-Iaa aminoglycoside acetyltransferase, it’s mechanism of action, conferred antibiotic resistance, it’s prevalence, and it’s detection model. 
 4. Examine the fluoroquinolone resistant gyrB for M. tuberculosis, it’s mechanism of action, conferred antibiotic resistance, and it’s detection model. 
-5. Examine the glycopeptide resistance gene cluster VanA, it’s mechanism of action, conferred antibiotic resistance, and it’s detection model(s). 
-6. Examine the MexAB-OprM efflux complex, it’s mechanism of action, conferred antibiotic resistance, it’s prevalence, and it’s detection model(s). 
+5. Examine the MexAB-OprM efflux complex, it’s mechanism of action, conferred antibiotic resistance, it’s prevalence, and it’s detection model(s). 
+
+<details>
+  <summary>Answer</summary>
+    
+1. 
+    + antibiotic target alteration [Resistance Mechanism]
+    + antibiotic target replacement [Resistance Mechanism]
+    + antibiotic target protection [Resistance Mechanism]
+    + antibiotic inactivation [Resistance Mechanism]
+    + antibiotic efflux [Resistance Mechanism]
+    + reduced permeability to antibiotic [Resistance Mechanism]
+    + resistance by absence [Resistance Mechanism]
+
+2. NDM-1: Antibiotic Inactivation, beta-lactams carbapenems etc, lots of ESKAPE pathogens, protein homologue model
+3. AAC(6')-Iaa: Antibiotic Inactivation, aminogylcosides, _Salmonella enterica_, protein homologue model
+4. gyrB: antibiotic target alteration, fluoroquinolones, _Mycobacterium_, protein variant model
+5. MexAB-OprM: antibiotic efflux, everything, have to check components but _Pseudomonas_, efflux meta-model
+                
+ </details>
 
 
 <a name="#rgibwt"></a>
@@ -173,24 +191,19 @@ Now **try and repeat** this process using reads from `unknown_plasmid_2` (`~/Cou
 
 * Which AMR genes were found in plasmid 2?
 * Which AMR gene had the highest % coverage? Remember this for later
-
 * Do you think these plasmids really have so many closely related alleles on them?
 
 * From these results and what you know about assembly, what do you think are the advantages/disadvantages of read-based methods
 
 <details>
   <summary>Answer</summary>
-    
- Read-based analyses advantages and disadvantages: 
+Read-based analyses advantages and disadvantages: 
 
 * Higher sensitivity (we find as many AMR genes as possible)
 * Lower specificity (we are more likely to make mistakes when identifying AMR genes)
 * Incomplete data (we are likely to find fragments of genes instead of whole genes, this can lead to confusion between similar genes)
 * No genomic context (we don't know where a gene we detect comes from in the genome, is it associated with a plasmid?)
        
-          ```javascript
-            console.log("I'm a code block!");
-              ```
                 
  </details>
 
@@ -289,10 +302,6 @@ Advantages/disadvantages of contig based methods:
 * More complete data (we are likely to find less fragmentary data with a decent assembly!)
 * Genomic context (we can find out what genes are next to the AMR gene!)
     
-
-```javascript
-console.log("I'm a code block!");
-```
 </details>
 
 
@@ -400,7 +409,7 @@ rgi heatmap -i ~/CourseData/IDE_data/module5/precompiled_rgi/all  -o cluster_bot
 rgi heatmap -i ~/CourseData/IDE_data/module5/precompiled_rgi/all  -o cluster_both_frequency_all_samples -f -clus bothls
 ```
 
-* At a glance, which species may be resistant to the most types of antibiotics?
+* Which species may be resistant to the most types of antibiotics?
 
 ## Relax
 
